@@ -1,0 +1,176 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "DistributedLock.Core/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/DistributedLock.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/DistributedLock.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DistributedLock.ZooKeeper/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DistributedLock.Core": "[1.0.2, 1.1.0)",
+          "ZooKeeperNetEx": "3.4.12.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/DistributedLock.ZooKeeper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/DistributedLock.ZooKeeper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ZooKeeperNetEx/3.4.12.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ZooKeeperNetEx.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/ZooKeeperNetEx.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DistributedLock.Core/1.0.2": {
+      "sha512": "0XNUImnKt/CBBguGSUyJvj7B7aHGFB3CB1Jk4HzYkarz/BZ2RXhqcUw4JdD2I3Inox6EFJbssQXL79gN0sc9LA==",
+      "type": "package",
+      "path": "distributedlock.core/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "distributedlock.core.1.0.2.nupkg.sha512",
+        "distributedlock.core.nuspec",
+        "lib/net461/DistributedLock.Core.dll",
+        "lib/net461/DistributedLock.Core.xml",
+        "lib/netstandard2.0/DistributedLock.Core.dll",
+        "lib/netstandard2.0/DistributedLock.Core.xml",
+        "lib/netstandard2.1/DistributedLock.Core.dll",
+        "lib/netstandard2.1/DistributedLock.Core.xml"
+      ]
+    },
+    "DistributedLock.ZooKeeper/1.0.0": {
+      "sha512": "aGu3NxkUAaTYPEP2PLXrxH7UfKcv1alp7xMBELzg089V+SSKljRXP90NgphrOX5IL6yTT3e0N0v9gFEz1xWOvA==",
+      "type": "package",
+      "path": "distributedlock.zookeeper/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "distributedlock.zookeeper.1.0.0.nupkg.sha512",
+        "distributedlock.zookeeper.nuspec",
+        "lib/net461/DistributedLock.ZooKeeper.dll",
+        "lib/net461/DistributedLock.ZooKeeper.xml",
+        "lib/netstandard2.0/DistributedLock.ZooKeeper.dll",
+        "lib/netstandard2.0/DistributedLock.ZooKeeper.xml",
+        "lib/netstandard2.1/DistributedLock.ZooKeeper.dll",
+        "lib/netstandard2.1/DistributedLock.ZooKeeper.xml"
+      ]
+    },
+    "ZooKeeperNetEx/3.4.12.4": {
+      "sha512": "YECtByVSH7TRjQKplwOWiKyanCqYE5eEkGk5YtHJgsnbZ6+p1o0Gvs5RIsZLotiAVa6Niez1BJyKY/RDY/L6zg==",
+      "type": "package",
+      "path": "zookeepernetex/3.4.12.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ZooKeeperNetEx.png",
+        "lib/net461/ZooKeeperNetEx.dll",
+        "lib/net461/ZooKeeperNetEx.xml",
+        "lib/netstandard2.0/ZooKeeperNetEx.dll",
+        "lib/netstandard2.0/ZooKeeperNetEx.xml",
+        "zookeepernetex.3.4.12.4.nupkg.sha512",
+        "zookeepernetex.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "DistributedLock.ZooKeeper >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\strin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\strin\\Source\\Repos\\IntegrationCase-main\\Integration\\Integration.csproj",
+      "projectName": "Integration",
+      "projectPath": "C:\\Users\\strin\\Source\\Repos\\IntegrationCase-main\\Integration\\Integration.csproj",
+      "packagesPath": "C:\\Users\\strin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\strin\\Source\\Repos\\IntegrationCase-main\\Integration\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\strin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "DistributedLock.ZooKeeper": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

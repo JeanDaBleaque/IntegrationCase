@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nbtqMKJ1KTtmSGwNOjJLKbgd2E3PQ4yLLKB6AzwG2ik0XVxvr53QSAmolgrbLuuNPvvCYgajHj7YD/sRRG9hlA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\strin\\Source\\Repos\\IntegrationCase-main\\Integration\\Integration.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\strin\\.nuget\\packages\\distributedlock.core\\1.0.2\\distributedlock.core.1.0.2.nupkg.sha512",
+    "C:\\Users\\strin\\.nuget\\packages\\distributedlock.zookeeper\\1.0.0\\distributedlock.zookeeper.1.0.0.nupkg.sha512",
+    "C:\\Users\\strin\\.nuget\\packages\\zookeepernetex\\3.4.12.4\\zookeepernetex.3.4.12.4.nupkg.sha512"
+  ],
+  "logs": []
+}

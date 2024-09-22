@@ -1,0 +1,5 @@
+Distributed System case'inde distributed locking olarak zookeeper altyapısını kullandım, bunu kullanma sebebim zaten hali hazırda önceki şirketimde de üzerinde çalışmış olduğum kafka queue yapısındaki docker container'in içinde varsayılan olarak gelmesidir fakat standalone şeklinde de kurulabilir.
+
+Sunmuş olduğum çözümün en büyük dezavantajı ise bir container'a bağımlı olmasıdır burada bu container'i docker ile oluşturup gerekli ayarlamalar yapılabilir fakat problem bu container'a yeterli kaynak ayırılması ve düzenli bir bakım gerektirmesidir. Ayrıca ara katman koymamız sebebiyle container yoğunluğuna göre bir ek gecikme de oluşacaktır.
+
+Ek birkaç şey eklemem gerekirse de itemContent'ler daha önceden bahsetmiş olduğum gibi anlık olarak kafka kuyruğuna atılıp container rahatlatılabilir yoğun iş yükü altındayken. Harici olarak db tarafında da her ihtimale karşı bir uniqueness kontrolü sağlanabilir.
